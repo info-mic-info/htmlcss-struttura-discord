@@ -33,12 +33,13 @@ nav {
 .logo {
     width: 10%;
 }
-ul{
+
+ul {
     width: 60%;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-} 
+}
 
 .login {
     width: 10%;
@@ -65,3 +66,58 @@ ul{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
+/* CONTENITORE BIANCO */
+
+.container-white {
+    background-color: azure;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.col-blue {
+    background-color: blue;
+    width: 50%;
+    height: 150px;
+
+
+}
+
+.col-pink {
+    background-color: pink;
+    width: 20%;
+    height: 150px;
+}
+
+/* CONTENITORE GRIGIO */
+
+.container-grey {
+    background-color: lightgrey;
+}
+
+/* CONTENITORE GRIGIO QUADRATO VERDE */
+
+
+.row3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     
+}
+
+.col-verde {
+    background-color: green;
+    width: 40%;
+    height: 200px;
+}
+
+/* CONTENITORE GRIGIO SCURO */
+
+.container-
