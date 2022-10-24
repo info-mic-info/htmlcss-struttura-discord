@@ -28,10 +28,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: dotted 1px;
 }
 
 .logo {
     width: 10%;
+    border: dotted 1px;
 }
 
 ul {
@@ -39,45 +41,44 @@ ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+    border: dotted 1px;
 }
 
 .login {
     width: 10%;
     text-align: right;
+    border: dotted 1px;
 }
 
 
 
 /* CONTAINER BLUE */
-.container-white {
-    background-color: white;
-}
 
 .row {
-    width: 100%;
-    margin: 0 auto;
+    
+    display: flex;
+    justify-content: center;
 }
 
 .col {
-    width: 40%;
+    width: 200px;
     height: 100px;
-    background-color: pink;
+    background-color: #Ee82ee;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: dotted 1px;
 }
 
 /* CONTENITORE BIANCO */
-
 .container-white {
-    background-color: azure;
+    background-color: white;
 }
 
 .row2 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    
 
 }
 
@@ -85,6 +86,9 @@ ul {
     background-color: blue;
     width: 195px;
     height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: dotted 1px;
 
 
 }
@@ -93,6 +97,9 @@ ul {
     background-color: pink;
     width: 155px;
     height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: dotted 1px;
 }
 
 /* CONTENITORE GRIGIO */
@@ -107,15 +114,16 @@ ul {
 .row3 {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-
 }
 
 .col-verde {
     background-color: green;
     width: 350px;
     height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: dotted 1px;
+
 }
 
 /* FOOTER */
@@ -128,19 +136,20 @@ footer {
 
 .container-blackgrey {
     background-color: rgba(128, 128, 128, 0.228);
-
 }
 
 .row4 {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-
 }
 
 .col4 {
     width: 150px;
     background-color: brown;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: dotted 1px;
 }
 
 .col5 {
@@ -149,6 +158,9 @@ footer {
     background-color: aquamarine;
     display: flex;
     justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: dotted 1px;
 }
 
 
