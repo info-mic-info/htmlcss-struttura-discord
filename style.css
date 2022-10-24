@@ -17,7 +17,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
 }
 
 .container-yellow {
@@ -28,11 +27,20 @@ nav {
 
 }
 
-.container-pink {
-    background-color: pink;
-    width: 60%;
-    height: 250px;
+.container-blue {
+    background-color: blue;
+}
+
+.row {
+    width: 100%;
     margin: 0 auto;
-    margin-bottom: 30px;
-    
+}
+
+.col {
+    width: 40%;
+    height: 100px;
+    background-color: pink;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
